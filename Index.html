@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"><!--Lenguaje en Español--> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pag Web Minimalista</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header{
+            background: #78b17b;
+            color: blanchedalmond;
+            padding: 1rem; 
+            text-align: center;
+        }
+        nav a:hover{
+            color: azure;
+            margin: 0 10px 15px 20px;
+            text-decoration: none;
+        }
+        main{
+            padding: 15px;
+        }
+        footer{
+            background: #9e2189;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+        }
+        </style>
 </head>
 <body>
-    
+<!--Cabecera--> 
+    <header>
+    <h1>Mi primera pag web</h1>
+    <nav>
+        <a href="Inicio">Inicio</a>
+        <a href="Sobre-mi">Sobre mi</a>
+        <a href="Contacto">Contacto</a>
+    </nav>
+    </header>
+    <!--Sección de inicio-->
+    <main id="inicio">
+        <section>
+            <h2>Bienvenido</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa eum aspernatur necessitatibus rem possimus, excepturi eveniet provident sint impedit doloremque, quos deserunt? Blanditiis aut, officia in libero dolorum modi!</p>
+        </section>
+        <section id=" Sobre mi">
+            <h2>Sobre mi</h2>
+            <article>
+                <h3>Perfil</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, earum unde? Dicta dolores nisi dolorem, assumenda, rem distinctio quos aliquam eaque fuga quibusdam soluta laborum suscipit ut, obcaecati rerum perferendis?</p>
+            </article>
+            <article>
+                <h3>Interes</h3>
+                <ul>
+                    <li>Programación</li>
+                    <li>Data y Analisís</li>
+                    <li>Docencia</li>
+                </ul>
+            </article>
+     </section>
+     <section id="Contacto">
+        <h2>Contacto</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptates consectetur, eligendi mollitia obcaecati saepe magnam sit rerum eius dolorem odio soluta enim ipsum non, iure quis qui, in quaerat.</p>
+    </section>
+</main>
+<!--Componentes de pie de pagina-->
+<footer>
+    <small>&copy; 2025 Talento Tech. Todos los Derechos reservados</small>
+</footer>
 </body>
 </html>
